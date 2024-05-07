@@ -17,9 +17,20 @@ body {
     
 }
 
+.header {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow:0px 3px 7px #000000;
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5px;
+    
+}
 
 .navbar {
     background-color: #282828;
+    box-shadow: 5px 5px 10px #000000;
     height: auto;
     position: fixed;
     top: 0;
@@ -68,3 +79,36 @@ p {
     font-style: normal;
     
 }
+
+form input {
+    background: none;
+    box-shadow: 5px 5px 10px #000000;   
+    padding: 0px 20px;
+    height: 40px;
+    color: var(--text-color);
+    outline: none;
+    width: 400px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+    border: 5px solid  rgb(255, 255, 255);
+    transition-duration: 1s;
+}
+
+form input:focus {
+    border-color: rgb(255, 255, 255);
+    border-radius: 50px;
+}
+
+::placeholder {
+    font-size: 16px;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    
+    
+}
+
