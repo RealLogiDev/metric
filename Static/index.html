@@ -3,7 +3,7 @@
 <head>
     <title>Metric | Home</title>
     <link rel="icon" type="image/x-icon" href="images/bum.png">
-    <link rel="stylesheet" href="css/index.css">
+    <link id="stylesheet" rel="stylesheet" href="css/main(dark).css">
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,7 +16,11 @@
             <a href="changelog.html">CHANGELOG</a>
             <a href="settings.html">SETTINGS</a>
         </div>
-        <p>-v0.1.0-</p>
+
+        <button id="modeToggle">Toggle Dark/Light</button>
+
+
+        
         
       </div>
     <div class="content">
@@ -29,5 +33,62 @@
             <div class="links">
         </form>
     </center>
+    <script>
+        var darkModeEnabled = false;
+
+        // Function to set cookie
+        function setCookie(name, value, days) {
+            var expires = "";
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                expires = "; expires=" + date.toUTCString();
+            }
+            document.cookie = name + "=" + (value || "") + expires + "; path=/";
+        }
+
+        // Function to get cookie
+        function getCookie(name) {
+            var nameEQ = name + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+            }
+            return null;
+        }
+
+        // Check for saved mode preference in cookies
+        window.onload = function() {
+            var mode = getCookie("mode");
+            if (mode === "dark") {
+                darkModeEnabled = true;
+                toggleMode();
+            } else {
+                darkModeEnabled = false;
+                toggleMode();
+            }
+        };
+
+        // Toggle mode and save preference in cookie
+        document.getElementById("modeToggle").addEventListener("click", function() {
+            darkModeEnabled = !darkModeEnabled;
+            toggleMode();
+            setCookie("mode", darkModeEnabled ? "dark" : "light", 365);
+        });
+
+        function toggleMode() {
+            if (darkModeEnabled) {
+                document.getElementById("stylesheet").href = "css/main(dark).css";
+            } else {
+                document.getElementById("stylesheet").href = "css/main(light).css";
+            }
+        }
+    </script>
+            <p>-v0.1.0-</p>
+</body>
+</html>
+    
 </body>
 </html>
