@@ -59,7 +59,7 @@ body {
 
 
 a {
-    font-size: 25px;
+    font-size: 18px;
     padding: 8px;
     padding-right: 8px;
     color: rgb(255, 255, 255);
@@ -101,7 +101,7 @@ form input:focus {
 }
 
 ::placeholder {
-    font-size: 16px;
+    font-size: 15px;
     padding: 8px;
     color: rgb(255, 255, 255);
     font-family: "Archivo Black", sans-serif;
@@ -114,16 +114,16 @@ form input:focus {
 
 #modeToggle {
     background-color: #ffffff; 
-    border: none; /* No border */
-    color: rgb(0, 0, 0); /* White text */
-    padding: 10px 20px; /* Padding around text */
-    text-align: center; /* Center text */
-    text-decoration: none; /* No underlining */
-    display: inline-block; /* Display as inline block */
-    font-size: 16px; /* Font size */
-    cursor: pointer; /* Cursor pointer */
-    border-radius: 4px; /* Rounded corners */
-    transition: background-color 0.3s; /* Smooth color transition on hover */
+    border: none;
+    color: rgb(0, 0, 0); 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 3000px; 
+    transition: background-color 0.3s; 
         align-self: center;
     font-size: 18px;
     color: rgb(0, 0, 0);
@@ -132,11 +132,11 @@ form input:focus {
     font-style: normal;
 }
 
-/* Hover effect */
+
 #modeToggle:hover {
-    background-color: #000000; /* Darker green on hover */
+    background-color: #000000; 
     color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255); /* White text */
+    color: rgb(255, 255, 255); 
 }
 
     
