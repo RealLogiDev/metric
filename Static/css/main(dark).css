@@ -66,6 +66,7 @@ a {
     font-family: "Archivo Black", sans-serif;
     font-weight: 400;
     font-style: normal;
+    text-decoration: none;
     
 }
 
@@ -139,4 +140,7 @@ form input:focus {
     color: rgb(255, 255, 255); 
 }
 
-    
+footer {
+position: absolute;
+bottom: 0;
+}    
