@@ -20,16 +20,18 @@ body {
 
 .navbar {
     background-color: #282828;
+    box-shadow: 5px 5px 10px #000000;
     height: auto;
     position: fixed;
     top: 0;
-    left: 0;
-    right: 0;
+
+    align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 5px;
-    
+    padding: 30px;
+    border-radius: 15px;
+    width: 50%;
 }
 
 .navbar a {
@@ -48,14 +50,14 @@ body {
 
 
 a {
-    font-size: 25px;
+    font-size: 18px;
     padding: 8px;
     padding-right: 8px;
     color: rgb(255, 255, 255);
     font-family: "Archivo Black", sans-serif;
     font-weight: 400;
     font-style: normal;
-    
+    text-decoration: none;
 }
 
 p {
