@@ -34,12 +34,11 @@ body {
     height: auto;
     position: fixed;
     top: 0;
-
     align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 30px;
+    padding: 5px;
     border-radius: 15px;
     width: 50%;
     
@@ -100,6 +99,7 @@ form input {
     color: #ffffff;
     border: 5px solid  rgb(255, 255, 255);
     transition-duration: 1s;
+
 }
 
 form input:focus {
