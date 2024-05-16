@@ -95,10 +95,7 @@ p {
     
 }
 
-
-
-
-form input {
+input {
     background: none;
     box-shadow: 5px 5px 10px #000000;   
     padding: 0px 20px;
@@ -114,7 +111,7 @@ form input {
 
 }
 
-form input:focus {
+input:focus {
     border-color: rgb(255, 255, 255);
     border-radius: 50px;
 }
@@ -159,9 +156,13 @@ form input:focus {
 }
 
 footer {
-position: absolute;
-bottom: 0;
+    position: absolute;
+    bottom: 0;
+}
 
-}    
+#frame {
+    display: none;
+    width: 100vw;
+    height: 100vw;
 
-
+}

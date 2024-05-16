@@ -7,6 +7,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <script src="baremux/bare.cjs" defer></script>
+    <script src="js/handler.js" defer></script>
+    <script src="epoxy/index.js" defer></script>
+    <script src="uv/sw.js" defer></script>
+    <script src="uv/uv.bundle.js" defer></script>
+    <script src="uv/uv.config.js" defer></script>
+    <script src="uv/uv.sw.js" defer></script>
+    <script src="uv/uv.client.js" defer></script>
 </head>
 <body>
     <div class="navbar">
@@ -22,22 +30,13 @@
 
         <p>v0.5.0</p>
         
-      </div>
+    </div>
     <div class="content">
         <div class="header"><h1>METRIC</h1></div>
     </div>
     
-    <center>
-        <form>
-            <input placeholder="Enter Search Request">
-            <div class="links">
-        </form>
-    </center>
-
-
-
-
-
+    <input spellcheck="false" id="address" placeholder="Enter Search Request">
+    <div class="links"></div>
 
     <script>
         var darkModeEnabled = false;
@@ -88,26 +87,20 @@
             if (darkModeEnabled) {
                 document.getElementById("stylesheet").href = "css/main(dark).css";
             } else {
-                document.getElementById("stylesheet").href = "css/main(light).css";
+                document.getElementById("stylesheet").href = "css/main(dark).css";
             }
         }
     </script>
-
-
-
+    <footer>
+        <a href="https://github.com/RealLogiDev/metric" target="_blank">
+            <img src="./images/github.png" width="40" height="40">
+        </a>
+        
+        <a href="https://discord.gg/k8UXnqhePa" target="_blank">
+            <img src="./images/disc.png" width="45" height="35">
+        </a>
+    </footer>
+    <iframe id="frame"></iframe>
 </body>
-</html>
-<footer>
-    <a href="https://github.com/RealLogiDev/metric" target="_blank">
-        <img src="./images/github.png" width="40" height="40">
-    </a>
-    
-    <a href="https://discord.gg/k8UXnqhePa" target="_blank">
-        <img src="./images/disc.png" width="45" height="35">
-    </a>
 
-
-</footer>
-    
-</body>
 </html>
