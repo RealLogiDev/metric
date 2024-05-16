@@ -1,6 +1,9 @@
 document.getElementById('address').addEventListener('keydown', async (ev) => {
     if (ev.key == 'Enter') {
         try {
+            /**
+             * @type String
+             */
             var address = document.getElementById('address').value;
             console.log(`Sending to: ${address}`);
             if (!navigator.serviceWorker) throw new Error();
@@ -9,19 +12,14 @@ document.getElementById('address').addEventListener('keydown', async (ev) => {
             let wispUrl = (location.protocol === "https:" ? "wss" : "ws") + "://" + location.host + "/wisp/";
             await BareMux.SetTransport("EpxMod.EpoxyClient", { wisp: wispUrl });
 
-            address = address.replace('https://', '');
-            address = address.replace('http://', '');
-            address = ["https://", address].join('');
-            var search = '';
+            if (!(address.includes('http') || address.includes('https')) && (address.includes('.'))) {
+                address = [location.protocol + "//", address].join('');
+            }
+            if (!address.includes('.')) {
+                address = `${location.protocol}//google.com/search?q=${encodeURIComponent(address)}`;
+            }
             console.log(address);
-            try { search = new URL(address).toString(); }
-            catch { search = getCookie('search-engine').replace('%s', encodeURIComponent(address)); }
-            document.body.childNodes.forEach(element => {
-                element.remove();
-            });
-            const frame = document.getElementById('frame');
-            frame.src = __uv$config.prefix + __uv$config.encodeUrl(search);
-            frame.style.display = 'block';
+            location.href = '/proxy.html?url=' + __uv$config.encodeUrl(address);
         }
         catch {
 
