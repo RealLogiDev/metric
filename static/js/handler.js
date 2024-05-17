@@ -15,7 +15,7 @@ document.getElementById('address').addEventListener('keydown', async (ev) => {
             if (!(address.includes('http') || address.includes('https')) && (address.includes('.'))) {
                 address = [location.protocol + "//", address].join('');
             }
-            if (!address.includes('.')) {
+            else if (!address.includes('.')) {
                 address = `${location.protocol}//google.com/search?q=${encodeURIComponent(address)}`;
             }
             console.log(address);
