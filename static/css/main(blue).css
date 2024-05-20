@@ -11,7 +11,7 @@ body {
     align-items: center;
     align-content: center;
     flex-direction: column;
-    background-color: rgb(26, 26, 26);
+    background-color: rgb(18, 21, 84);
     flex: 1;
     padding: 200px;
     
@@ -29,7 +29,7 @@ body {
 }
 
 .navbar {
-    background-color: #282828;
+    background-color: #121558;
     box-shadow: 0px 0px 30px #000000;
     height: auto;
     position: fixed;
@@ -55,7 +55,7 @@ body {
 .navbar a:hover{ 
     padding: 20px;
     text-align: center;
-    background-color: #636363;
+    background-color: #4c49a9;
     border-radius: 25px;
     
 }
@@ -96,7 +96,7 @@ p {
 }
 
 input {
-    background: none;
+
     box-shadow: 5px 5px 10px #000000;   
     padding: 0px 20px;
     height: 40px;
@@ -106,7 +106,7 @@ input {
     margin-top: 10px;
     border-radius: 10px;
     color: #ffffff;
-    background-color: #282828;
+    background-color: #121558;
     border: 4px solid  rgb(255, 255, 255);
     transition-duration: 1s;
 
@@ -115,7 +115,7 @@ input {
 input:focus {
     border-color: rgb(255, 255, 255);
     border-radius: 50px;
-    background-color: #515050;
+    background-color: #1f2492;
 }
 
 ::placeholder {
@@ -185,7 +185,7 @@ footer {
 }
 
 .navbar-proxy {
-    background-color: #282828;
+    background-color: #121558;
     box-shadow: 0px 0px 30px #000000;
     height: auto;
     position: fixed;
@@ -213,7 +213,7 @@ footer {
 .navbar-proxy a:hover{ 
     padding: 20px;
     text-align: center;
-    background-color: #636363;
+    background-color: #4c49a9;
     border-radius: 25px;
     
 }
@@ -246,9 +246,9 @@ a {
     width: 100%;
     font-family: "Archivo Black", sans-serif;
     padding: 5px;
-    border: 3px solid #3c3c3c;
+    border: 3px solid #203bc5;
     border-radius: 5px;
-    background-color: #363636;
+    background-color: #101cc5;
     font-size: 16px;
     color: #ffffff;
     appearance: none;
@@ -260,9 +260,9 @@ a {
     width: 100%;
     font-family: "Archivo Black", sans-serif;
     padding: 5px;
-    border: 3px solid #3c3c3c;
+
     border-radius: 25px;
-    background-color: #363636;
+
     font-size: 16px;
     color: #ffffff;
     appearance: none;
@@ -280,9 +280,9 @@ a {
     width: 75%;
     font-family: "Archivo Black", sans-serif;
     padding: 5px;
-    border: 3px solid #3c3c3c;
+    border: 3px solid #203bc5;
     border-radius: 5px;
-    background-color: #363636;
+    background-color: #101cc5;
     font-size: 16px;
     color: #ffffff;
     appearance: none;
@@ -290,7 +290,7 @@ a {
 }
 
 .apperance select option:checked {
-    background-color: #686868;
+    background-color: #1f239f;
   }
 
   .hidden {
