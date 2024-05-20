@@ -1,0 +1,42 @@
+/* Keyframes for spinning animation */
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Apply the spinning animation to the image */
+.pasta {
+    align-items: center;
+    width: 1000px;
+    height: 1000px;
+    animation: spin 5s linear infinite;
+}
+
+/* Keyframes for wavy animation */
+@keyframes wavy {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Apply the wavy animation to the body */
+body {
+    background-image: url('https://www.thefieryvegetarian.com/wp-content/uploads/2023/01/vegetarian-rasta-pasta-recipe-720x540.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: wavy 10s ease-in-out infinite;
+    height: 100vh;
+    margin: 0;
+}
+
+
