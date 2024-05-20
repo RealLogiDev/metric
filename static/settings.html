@@ -6,19 +6,21 @@
     <link rel="stylesheet" href="css/settings.css">
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/settings.js" defer></script>
 
 </head>
 <body>
-    <div class="navbar">
-        <div>
-            <a href="index.html">HOME</a>
-            <a href="changelog.html">CHANGELOG</a>
-            <a href="games.html">GAMES</a>
-            <a href="settings.html">SETTINGS</a>
+  <div class="navbar">
+    <div>
 
-        </div>
+        <a href="index.html">HOME</a>
 
-        <p>v0.5.3</p>
+        <a href="settings.html">SETTINGS</a>
+
+    </div>
+
+
+    <a href="changelog.html">v0.5.3</a>
         
       </div>
       <div class="header"><h1>SETTINGS</h1></div>
@@ -33,6 +35,7 @@
         <option value="emerald">Emerald</option>
         <option value="purple">Purple</option>
         <option value="blue">Blue</option>
+        <option value="blue"></option>
       </select>
     </center>
   </div>
@@ -41,8 +44,7 @@
     <div class="hidden">
       <center><h2>HIDDEN MODE</h2>
       <p>Enables About:Blank Mode</p>
-      <input type="checkbox" id="checkbox1" class="checkbox-real">
-      <label for="checkbox1" class="checkbox-custom-label"></label>
+      <button class="option" style="width:200px"  onclick="openWindow()">Open Blanker</button>
       </center>
     </div>
     <br>

@@ -2,13 +2,14 @@
 <html>
     <head>
         <script src="js/proxy.js" defer></script>
-        <script src="baremux/bare.cjs" defer></script>
+         <script src="baremux/bare.cjs" defer></script>
         <script src="epoxy/index.js" defer></script>
         <script src="uv/sw.js" defer></script>
         <script src="uv/uv.bundle.js" defer></script>
         <script src="uv/uv.config.js" defer></script>
         <script src="uv/uv.sw.js" defer></script>
         <script src="uv/uv.client.js" defer></script>
+        <script src="js/handler.js" defer></script>
         <title>Metric | Search</title>
         <link rel="icon" type="image/x-icon" href="images/bum.png">
         <link rel="stylesheet" href="css/main(dark).css">
@@ -19,17 +20,17 @@
         
         <iframe id="frame"></iframe>
         <div class="navbar-proxy">
-            <div>
-    
-                <a href="index.html">HOME</a>
-                <a href="changelog.html">CHANGELOG</a>
-                <a href="games.html">GAMES</a>
-                <a href="settings.html">SETTINGS</a>
-    
-            </div>
-    
-    
-            <p>v0.5.3</p>
+                <div>
+        
+                    <a href="index.html">HOME</a>
+        
+                    <a href="settings.html">SETTINGS</a>
+        
+                </div>
+                <input spellcheck="false" id="address" placeholder="Enter Search Request">
+                <div class="links"></div>
+        
+                <a href="changelog.html">v0.5.3</a>
 
     </body>
 </html>
