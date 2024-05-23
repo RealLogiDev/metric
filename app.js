@@ -1,13 +1,13 @@
-import * as http from 'node:http';
-import * as https from 'node:https';
+import { createServer as httpCreateServer } from 'node:http';
+import { createServer as httpsCreateServer } from 'node:https';
 import { uvPath } from "@titaniumnetwork-dev/ultraviolet";
 import { epoxyPath } from "@mercuryworkshop/epoxy-transport";
 import { baremuxPath } from "@mercuryworkshop/bare-mux";
 import wisp from 'wisp-server-node';
 import express from 'express';
 
-const httpServer = http.createServer();
-const httpsServer = https.createServer();
+const httpServer = httpCreateServer();
+const httpsServer = httpsCreateServer();
 const app = express();
 
 app.use('/', express.static(process.cwd() + '/static'));
