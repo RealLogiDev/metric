@@ -1,0 +1,228 @@
+.archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+body {
+
+    background-color: rgb(221, 221, 221);
+
+}
+
+.header {
+
+    color: rgb(0, 0, 0);
+    text-shadow:0px 3px 7px #000000;
+
+}
+
+.navbar {
+    background-color: #282828;
+    box-shadow: 0px 0px 30px #000000;
+
+    
+}
+
+.navbar a {
+
+
+}
+
+.navbar a:hover{ 
+
+    background-color: #636363;
+
+    
+}
+
+.navbar M {
+
+    color: rgb(255, 255, 255);
+
+  }
+
+
+
+a {
+
+    color: rgb(255, 255, 255);
+
+    
+    
+}
+
+p {
+
+
+    color: rgb(255, 255, 255);
+
+    
+}
+
+input {
+
+    box-shadow: 5px 5px 10px #000000;   
+
+    color: #ffffff;
+    background-color: #282828;
+    border: 4px solid  rgb(255, 255, 255);
+
+
+}
+
+input:focus {
+    border-color: rgb(255, 255, 255);
+
+    background-color: #515050;
+}
+
+::placeholder {
+
+    color: rgb(255, 255, 255);
+
+    
+}
+
+#address {
+
+    color: rgb(255, 255, 255);
+
+    
+    
+}
+
+
+#modeToggle {
+    background-color: #ffffff; 
+
+    color: rgb(0, 0, 0); 
+
+    color: rgb(0, 0, 0);
+
+}
+
+
+#modeToggle:hover {
+    background-color: #000000; 
+    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255); 
+}
+
+footer {
+
+}
+
+#frame {
+
+}
+
+.navbar-proxy {
+    background-color: #282828;
+    box-shadow: 0px 0px 30px #000000;
+
+    
+}
+
+.navbar-proxy a {
+
+}
+
+.navbar-proxy a:hover{ 
+
+    background-color: #636363;
+
+    
+}
+
+.navbar-proxy M {
+
+    color: rgb(255, 255, 255);
+
+  }
+
+
+
+a {
+
+    color: rgb(255, 255, 255);
+
+    
+    
+}
+
+.hidden button {
+
+    border: 3px solid #3c3c3c;
+
+    background-color: #363636;
+
+    color: #ffffff;
+
+  }
+  
+  .hidden button:hover {
+
+    border: 3px solid #3c3c3c;
+
+    background-color: #363636;
+
+    color: #ffffff;
+
+  }
+
+  .apperance {
+    border: 4px solid rgb(255, 255, 255);
+
+
+  }
+
+.apperance select {
+
+    border: 3px solid #3c3c3c;
+
+    background-color: #363636;
+
+    color: #ffffff;
+
+}
+
+.apperance select option:checked {
+    background-color: #686868;
+  }
+
+  .hidden {
+    border: 4px solid rgb(255, 255, 255);
+
+
+  }
+
+  .tabcloak {
+    border: 4px solid rgb(255, 255, 255);
+
+
+  }
+  
+  .tabcloak select {
+
+    border: 3px solid #3c3c3c;
+    color: #ffffff;
+    background-color: #363636;
+
+
+
+}
+
+.tabcloak select option:checked {
+    background-color: #686868;
+    
+  }
+
+  h2 {
+
+    color: rgb(255, 255, 255);
+    text-shadow:0px 3px 7px #000000;
+
+    
+}

@@ -1,0 +1,304 @@
+.archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+
+    flex: 1;
+    padding: 200px;
+    
+}
+
+.header {
+    font-size: 30px;
+
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5px;
+    transition-duration: 1s;
+}
+
+.navbar {
+
+    height: auto;
+    position: fixed;
+    top: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 15px;
+    width: 80%;
+    transition-duration: 1s;
+    
+}
+
+.navbar a {
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease, border-radius 0.3s ease;
+
+}
+
+.navbar a:hover{ 
+    padding: 20px;
+    text-align: center;
+
+    border-radius: 25px;
+    
+}
+
+.navbar M {
+    align-self: center;
+    font-size: 65px;
+
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+a {
+    font-size: 18px;
+    padding: 8px;
+    padding-right: 8px;
+
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    
+    
+}
+
+p {
+    font-size: 20px;
+    padding: 8px;
+    padding-right: 8px;
+
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+input {
+    background: none;
+    box-shadow: 5px 5px 10px #000000;   
+    padding: 0px 20px;
+    height: 40px;
+    color: var(--text-color);
+    outline: none;
+    width: 40vw;
+    margin-top: 10px;
+    border-radius: 10px;
+
+    transition-duration: 1s;
+
+}
+
+input:focus {
+
+    border-radius: 50px;
+
+}
+
+::placeholder {
+    font-size: 15px;
+    padding: 8px;
+
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    
+    
+}
+
+#address {
+    font-size: 15px;
+
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    
+    
+}
+
+
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    margin-top: 30px;
+}
+
+#frame {
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    bottom: 0;
+    left: 0;
+    border: none;
+}
+
+.navbar-proxy {
+
+    height: auto;
+    position: fixed;
+    top: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 15px;
+    width: 80%;
+    height: 63px;
+    transition-duration: 1s;
+    
+    
+}
+
+.navbar-proxy a {
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease, border-radius 0.3s ease;
+
+}
+
+.navbar-proxy a:hover{ 
+    padding: 20px;
+    text-align: center;
+
+    border-radius: 25px;
+    
+}
+
+.navbar-proxy M {
+    align-self: center;
+    font-size: 65px;
+
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+a {
+    font-size: 18px;
+    padding: 8px;
+    padding-right: 8px;
+
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    
+    
+}
+
+.hidden button {
+    width: 100%;
+    font-family: "Archivo Black", sans-serif;
+    padding: 5px;
+
+    border-radius: 5px;
+
+    font-size: 16px;
+
+    appearance: none;
+    padding: 10px 30px 10px 10px;
+    transition: border-radius 0.3s ease;
+  }
+  
+  .hidden button:hover {
+    width: 100%;
+    font-family: "Archivo Black", sans-serif;
+    padding: 5px;
+
+    border-radius: 25px;
+
+    font-size: 16px;
+
+    appearance: none;
+    padding: 10px 30px 10px 10px;
+  }
+
+  .apperance {
+
+    border-radius: 5px;
+    padding: 20px;
+
+  }
+
+.apperance select {
+    width: 75%;
+    font-family: "Archivo Black", sans-serif;
+    padding: 5px;
+
+    border-radius: 5px;
+
+    font-size: 16px;
+
+    appearance: none;
+    padding: 10px 30px 10px 10px;
+}
+
+.apperance select option:checked {
+
+  }
+
+  .hidden {
+
+    border-radius: 5px;
+    padding: 20px;
+
+  }
+
+  .tabcloak {
+
+    border-radius: 5px;
+    padding: 20px;
+
+  }
+  
+  .tabcloak select {
+    width: 75%;
+    font-family: "Archivo Black", sans-serif;
+    padding: 5px;
+
+    border-radius: 5px;
+
+    font-size: 16px;
+
+    appearance: none;
+    padding: 10px 30px 10px 10px;
+}
+
+.tabcloak select option:checked {
+
+  }
+
+  h2 {
+    font-size: 25px;
+
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
