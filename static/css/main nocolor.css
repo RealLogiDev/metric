@@ -95,7 +95,6 @@ p {
 
 input {
     background: none;
-    box-shadow: 5px 5px 10px #000000;   
     padding: 0px 20px;
     height: 40px;
     color: var(--text-color);
