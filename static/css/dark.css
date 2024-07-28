@@ -14,13 +14,13 @@ body {
 .header {
 
     color: rgb(255, 255, 255);
-    text-shadow:0px 3px 7px #000000;
+
 
 }
 
 .navbar {
     background-color: #282828;
-    box-shadow: 0px 0px 30px #000000;
+
 
     
 }
@@ -63,11 +63,11 @@ p {
 
 input {
 
-    box-shadow: 5px 5px 10px #000000;   
+  
 
     color: #ffffff;
     background-color: #282828;
-    border: 4px solid  rgb(255, 255, 255);
+
 
 
 }
@@ -75,12 +75,14 @@ input {
 input:focus {
     border-color: rgb(255, 255, 255);
 
-    background-color: #515050;
+    
+
+
 }
 
 ::placeholder {
 
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.661);
 
     
 }
@@ -120,7 +122,7 @@ footer {
 
 .navbar-proxy {
     background-color: #282828;
-    box-shadow: 0px 0px 30px #000000;
+
 
     
 }
@@ -222,7 +224,7 @@ a {
   h2 {
 
     color: rgb(255, 255, 255);
-    text-shadow:0px 3px 7px #000000;
+
 
     
 }
