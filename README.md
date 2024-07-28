@@ -1,7 +1,5 @@
 <h1>Metric</h1>
-<p>A Lightweight proxy with upcoming features that will make using this proxy a breeze!
-<br>
-Also made by two people and shit
+<p> A proxy made by two people with the goal of efficency and simplicity.
   
   <br>
   Discord: https://discord.com/invite/urjqCD84Ee
