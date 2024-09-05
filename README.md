@@ -1,8 +1,6 @@
 <h1>Metric</h1>
-<p> A proxy made by two people with the goal of efficency and simplicity.
-I am reworking this to make it better and simple, and Look good!, so it's gonna be in the works for a bit! sorry
-
-Also I'm the only one working on this now</p>
+<p> <i>A proxy created by two people with the goal of efficency and simplicity.</i> </p>
+<p>Metric is a lightweight, simple proxy, that is not over the top, but simple and straight to the point</p>
   
   <br>
   <p>Discord: https://discord.com/invite/urjqCD84Ee
