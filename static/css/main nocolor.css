@@ -343,3 +343,11 @@ h3 {
     
 }
 
+img {
+    border-radius: 50px;
+    transition: background-color 0.3s ease, border-radius 0.3s ease;
+}
+
+img:hover {
+    border-radius: 100px;
+}
