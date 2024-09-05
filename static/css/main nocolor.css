@@ -36,8 +36,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 5px;
-    border-radius: 15px;
+    padding: 0px;
+    border-radius: 50px;
     width: 70%;
     transition-duration: 1s;
     
@@ -54,7 +54,7 @@ body {
     padding: 20px;
     text-align: center;
 
-    border-radius: 25px;
+    border-radius: 50px;
     
 }
 
@@ -112,6 +112,18 @@ p {
     
 }
 
+li {
+    font-size: 18px;
+    padding: 8px;
+    padding-right: 8px;
+
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+
 input {
     background: none;
     padding: 0px 60px;
@@ -121,7 +133,7 @@ input {
     outline: none;
     width: 40vw;
     margin-top: 10px;
-    border-radius: 10px;
+    border-radius: 50px;
 
     transition-duration: 1s;
 
@@ -129,7 +141,7 @@ input {
 
 input:focus {
 
-    border-radius: 50px;
+    border-radius: 15px;
 
 }
 
@@ -183,10 +195,10 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 5px;
-    border-radius: 15px;
+    padding: 0px;
+    border-radius: 50px;
     width: 80%;
-    height: 63px;
+
     transition-duration: 1s;
     
     
@@ -203,7 +215,7 @@ footer {
     padding: 20px;
     text-align: center;
 
-    border-radius: 25px;
+    border-radius: 50px;
     
 }
 
@@ -315,6 +327,15 @@ a {
 
   h2 {
     font-size: 25px;
+
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+h3 {
+    font-size: 20px;
 
     font-family: "Archivo Black", sans-serif;
     font-weight: 400;
