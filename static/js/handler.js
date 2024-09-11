@@ -12,12 +12,7 @@ document.getElementById('address').addEventListener('keydown', async (ev) => {
             let wispUrl = (location.protocol === "https:" ? "wss" : "ws") + "://" + location.host + "/wisp/";
             await BareMux.SetTransport("EpxMod.EpoxyClient", { wisp: wispUrl });
 
-            if (!(address.includes('http') || address.includes('https')) && (address.includes('.'))) {
-                address = [location.protocol + "//", address].join('');
-            }
-            else if (!address.includes('.')) {
-                address = `${location.protocol}${getCookie("search-engine").replace("https://", "").replace("http://", "")}${encodeURIComponent(address)}`;
-            }
+            address = processURL(address)
             console.log(address);
             location.href = '/proxy.html?url=' + __uv$config.encodeUrl(address);
         }

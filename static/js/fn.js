@@ -20,3 +20,13 @@ function setCookie(cname, cvalue, exdays=364) {
     document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 }
 
+function processURL(url) {
+  var output = url
+  if (!(output.includes('https://') || output.includes('http://')) && output.includes('.')) {
+    output = ["https://", output].join('');
+  }
+  if (!output.includes('.')) {
+    output = getCookie('search-engine').replace('%s', encodeURIComponent(output));
+  }
+  return output;
+}
