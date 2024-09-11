@@ -30,18 +30,14 @@
             <a href="info.html">INFO</a>
         </div>
         <a href="changelog.html">v0.6.5</a>
-        
-    </div>
+      </div>
 
-    <input id="search-engine"></input>
-
-      <script>
-        var seInput = document.getElementById("search-engine");
-        seInput.addListener("onchange", () => setCookie(seInput.value));
-        
-      </script>
-
-
+      <input id="search-engine" type="text"></input>
     </div>
 </body>
 </html>
+<script>
+  var seInput = document.getElementById("search-engine");
+  seInput.addListener("onchange", () => setCookie("search-engine", seInput.value));
+  seInput.value = getCookie("search-engine");
+</script>

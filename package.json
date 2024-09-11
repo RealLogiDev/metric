@@ -2,7 +2,7 @@
   "type": "module",
   "dependencies": {
     "@mercuryworkshop/bare-mux": "^1.1.0",
-    "@mercuryworkshop/epoxy-transport": "^1.1.0",
+    "@mercuryworkshop/epoxy-transport": "^2.1.11",
     "@titaniumnetwork-dev/ultraviolet": "^3.1.2",
     "express": "^4.19.2",
     "wisp-server-node": "^1.1.0"
@@ -12,6 +12,6 @@
     "test": "nodemon app.js"
   },
   "devDependencies": {
-    "nodemon": "^3.1.0"
+    "nodemon": "^3.1.4"
   }
 }
