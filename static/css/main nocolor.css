@@ -179,7 +179,10 @@ input:focus {
 
     padding:5px;
     border-radius: 50px;
+    transition: background-color 0.3s ease
 }
+
+
 
 .footer a {
     font-size: 12.5px;
