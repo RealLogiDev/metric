@@ -1,6 +1,21 @@
-<h1>Metric</h1>
+<p align="center">
+<img src="./static/images/publiclogo.png" />
+</p>
+
+# 
+
 <p> <i>A proxy created by two people with the goal of efficency and simplicity.</i> </p>
-<p>Metric is a lightweight, simple proxy, that is not over the top, but simple and straight to the point</p>
-  
+
+<img src="https://shields.io/github/languages/code-size/RealLogiDev/Metric?style=flat-square&logo=github"/> <img src="https://shields.io/github/stars/RealLogiDev/Metric?style=flat-square&logo=github"/>
+
+
+
+<p>Metric is a lightweight, simple web proxy, that is not over the top, but simple and straight to the point.</p>
   <br>
+
+#
+
+<p>More info coming soon on v1 full release!</p>
+
+</p>
 
