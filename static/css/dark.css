@@ -81,8 +81,8 @@ input {
 }
 
 input:focus {
-    border-color: rgb(255, 255, 255);
-    background-color: #3b3b3b;
+
+    background-color: #303030;
 
     
 
