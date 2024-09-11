@@ -16,7 +16,7 @@ document.getElementById('address').addEventListener('keydown', async (ev) => {
                 address = [location.protocol + "//", address].join('');
             }
             else if (!address.includes('.')) {
-                address = `${location.protocol}//google.com/search?q=${encodeURIComponent(address)}`;
+                address = `${location.protocol}${getCookie("search-engine").replace("https://", "").replace("http://", "")}${encodeURIComponent(address)}`;
             }
             console.log(address);
             location.href = '/proxy.html?url=' + __uv$config.encodeUrl(address);

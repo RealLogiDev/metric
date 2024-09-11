@@ -1,59 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Metric | Settings</title>
+    <title>Metric | Home</title>
     <link rel="icon" type="image/x-icon" href="images/bum.png">
-    <link rel="stylesheet" href="css/main.css">
+    <link id="stylesheet" rel="stylesheet" href="css/main nocolor.css">
+    <link id="theme-stylesheet" rel="stylesheet" href="css/dark.css">
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <script src="baremux/bare.cjs" defer></script>
+    <script src="js/themes.js" defer></script>
+    <script src="js/handler.js" defer></script>
+    <script src="epoxy/index.js" defer></script>
+    <script src="uv/sw.js" defer></script>
+    <script src="uv/uv.bundle.js" defer></script>
+    <script src="uv/uv.config.js" defer></script>
+    <script src="uv/uv.sw.js" defer></script>
+    <script src="uv/uv.client.js" defer></script>
+    <script src="js/lib.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="fn.js" defer></script>
 
 </head>
-  <script src="js/theme-switcher.js"></script>
 <body>
-  <div class="navbar">
-    <div>
-
-        <a href="index.html">HOME</a>
-
-        <a href="settings.html">SETTINGS</a>
-
-
-    </div>
-
-    <a href="changelog.html">v0.5.3</a>
+    <div class="navbar">
+        <div>
+            <a href="index.html">HOME</a>
+            <a href="faq.html">FAQ</a>
+            <a href="info.html">INFO</a>
+        </div>
+        <a href="changelog.html">v0.6.5</a>
         
-      </div>
-      <div class="header"><h1>SETTINGS</h1></div>
-      
-    <div class="apperance">
-      <center> <h2>SITE THEMES</h2>
-      <p>Change the theme of the site</p>
-      <select id="optionsSelect">
-        <option value="dark">Default</option>
-        <option value="light">Light</option>
-        <option value="blue">Blue</option>
-        <option value="emerald">Emerald</option>
-        <option value="purple">Purple</option>
-      </select>
-    </center>
-  </div>
-      <br>
-      
-      
-    <div class="hidden">
-      <center><h2>HIDDEN MODE</h2>
-      <p>Enables About:Blank Mode</p>
-      <button class="option" style="width:200px"  onclick="openWindow()">Open in A:B</button>
-      </center>
     </div>
-    <br>
+
+    <input id="search-engine"></input>
+
+      <script>
+        var seInput = document.getElementById("search-engine");
+        seInput.addListener("onchange", () => setCookie(seInput.value));
+        
+      </script>
 
 
     </div>
-
-
-    <p>2024 ProbablyLogi/RealLogiDev</p>
-    </body>
-    </html>
-    
+</body>
+</html>
