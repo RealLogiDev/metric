@@ -3,5 +3,4 @@
 <p>Metric is a lightweight, simple proxy, that is not over the top, but simple and straight to the point</p>
   
   <br>
-  <p>Discord: https://discord.com/invite/urjqCD84Ee
-</p>
+
