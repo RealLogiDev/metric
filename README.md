@@ -6,12 +6,15 @@
 
 <p> <i>A proxy created by two people with the goal of efficency and simplicity.</i> </p>
 
+
+
 <img src="https://shields.io/github/languages/code-size/RealLogiDev/Metric?style=flat-square&logo=github"/> <img src="https://shields.io/github/stars/RealLogiDev/Metric?style=flat-square&logo=github"/>
 
 
 
 <p>Metric is a lightweight, simple web proxy, that is not over the top, but simple and straight to the point.</p>
   <br>
+  <p>Metric is a frontend for Ultraviolet by TitaniumNetwork!</p>
 
 #
 
