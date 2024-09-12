@@ -26,7 +26,7 @@ function processURL(url) {
     output = ["https://", output].join('');
   }
   if (!output.includes('.')) {
-    output = getCookie('search-engine').replace('%s', encodeURIComponent(output));
+    output = getCookie('search-engine') + encodeURIComponent(output);
   }
   return output;
 }

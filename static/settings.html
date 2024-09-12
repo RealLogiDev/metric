@@ -36,7 +36,7 @@
     </div>
 </body>
 </html>
-<script>
+<script defer>
   var seInput = document.getElementById("search-engine");
   seInput.addListener("onchange", () => setCookie("search-engine", seInput.value));
   seInput.value = getCookie("search-engine");
