@@ -16,6 +16,7 @@
 #
 
 <p>More info coming soon on v1 full release!</p>
+<p> (9/12/24) disclaimer: Metric is currently being worked on, and it will not work until we are finished</p>
 
 </p>
 
