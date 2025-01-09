@@ -46,7 +46,7 @@ body {
 .navbar a {
     padding: 20px;
     text-align: center;
-    transition: background-color 0.3s ease, border-radius 0.3s ease;
+    transition: background-color 0.5s ease, border-radius 0.5s ease;
 
 }
 
@@ -130,7 +130,6 @@ input {
     align-self: auto;
     height: 40px;
     color: var(--text-color);
-    outline: none;
     width: 40vw;
     margin-top: 10px;
     border-radius: 50px;
@@ -142,7 +141,7 @@ input {
 input:focus {
 
     border-radius: 15px;
-
+    border-width: 0px;
 }
 
 ::placeholder {

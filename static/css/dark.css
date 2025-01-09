@@ -81,9 +81,9 @@ li {
 
 input {
 
-  
+  border-color: #26262600;
 
-    color: #ffffff;
+
     background-color: #282828;
 
 
@@ -93,6 +93,7 @@ input {
 input:focus {
 
     background-color: #303030;
+    border-color: #26262600;
 
     
 
